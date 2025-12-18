@@ -124,7 +124,7 @@ export const Hero: React.FC = () => {
       {/* Real Image Background (Simulating Nano Banana Style) */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hero-bg.png"
+          src={`${import.meta.env.BASE_URL}images/hero-bg.png`}
           alt="Abstract Data Integrity Background"
           className="w-full h-full object-cover opacity-90"
         />
